@@ -11,17 +11,19 @@
     background-color: #000000;
 }
 
+.logo {
+    color: aliceblue;
+    background-color: blue;
+    padding: 8px;
+    border-radius: 5%;
+}
+
 ul {
     display: flex;
     list-style-type: none;
     gap: 20px;
     color: aliceblue;
 }
-
-.logo {
-    color: aliceblue;
-}
-
 
 .contact-btn {
     background-color: aquamarine;
@@ -36,4 +38,5 @@ ul {
 
 :hover.contact-btn {
     background-color: chartreuse;
+    cursor: pointer;
 }
