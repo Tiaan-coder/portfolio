@@ -74,5 +74,14 @@ ul {
 
 .experience {
     display: grid;
+    grid-template-rows: 150px 150px 150px;
+    grid-template-columns: 150px 150px 150px;
+    grid-column-gap: 50px;
     text-align: center;
+    justify-content: center;
+}
+
+.exp {
+    grid-column-start: 1;
+    grid-column-end: 4;
 }
